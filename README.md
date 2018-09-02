@@ -98,7 +98,7 @@ ax = sns.distplot(df_train['SalePrice'], color="y", ).set_title('Log transformed
 ```
 
 
-![png](output_5_0.png)
+![png](https://github.com/WJMatthew/KaggleHousing/blob/master/images/output_5_0.png)
 
 
 #### Analyzing and inputting missing data
@@ -116,19 +116,7 @@ missing_data.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -178,7 +166,7 @@ plt.title('Percentage of values missing');
 ```
 
 
-![png](output_8_0.png)
+![png](https://github.com/WJMatthew/KaggleHousing/blob/master/images/output_8_0.png)
 
 
 ### Ordinal categorical variables: Condition/Quality
@@ -406,19 +394,7 @@ skewness.head(20)
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -593,7 +569,7 @@ plt.title('Bottom 25 correlated predictor variables with target');
 ```
 
 
-![png](output_24_0.png)
+![png](https://github.com/WJMatthew/KaggleHousing/blob/master/images/output_24_0.png)
 
 
 
@@ -614,7 +590,7 @@ sns.heatmap(numeric_data_corr, mask=mask, cmap=cmap, square=True, ax=ax);
 ```
 
 
-![png](output_25_0.png)
+![png](https://github.com/WJMatthew/KaggleHousing/blob/master/images/output_25_0.png)
 
 
 #### Setting up training and testing data
